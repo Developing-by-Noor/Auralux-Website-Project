@@ -8,7 +8,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import { onAuthStateChanged, signOut } from "firebase/auth";
-import { auth, fireDB } from "../FirebaseConfig";
+import { auth, fireDB } from "../Firebaseconfig";
 import { motion } from "framer-motion";
 
 import {
