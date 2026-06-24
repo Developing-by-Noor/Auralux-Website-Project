@@ -6,7 +6,7 @@ import {
   deleteDoc,
   doc,
 } from "firebase/firestore";
-import { fireDB, auth } from "../FirebaseConfig";
+import { fireDB, auth } from "../Firebaseconfig";
 import { useNavigate, useLocation } from "react-router-dom";
 import {
   ShoppingBag,
