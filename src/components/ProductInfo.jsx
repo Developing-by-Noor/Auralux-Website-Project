@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 import { addDoc, collection } from "firebase/firestore";
-import { fireDB, auth } from "../FirebaseConfig";
+import { fireDB, auth } from "../Firebaseconfig";
 import { useLocation } from "react-router-dom";
 
 
