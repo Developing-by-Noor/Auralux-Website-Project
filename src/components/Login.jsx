@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import MyContext from "../MyContext";
 import toast from "react-hot-toast";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth, fireDB } from "../FirebaseConfig";
+import { auth, fireDB } from "../Firebaseconfig";
 import  Loader  from "./Loader";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 import { getDocs } from "firebase/firestore";
