@@ -7,7 +7,7 @@ import Loader from "./Loader";
 import MyContext from "../myContext";
 
 // Firebase imports (adjust path if needed)
-import { auth, fireDB } from "../FirebaseConfig";
+import { auth, fireDB } from "../Firebaseconfig";
 import {
   createUserWithEmailAndPassword
 } from "firebase/auth";
