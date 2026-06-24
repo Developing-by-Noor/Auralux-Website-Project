@@ -4,7 +4,7 @@ import { User, Mail, Lock, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 import Loader from "./Loader";
-import MyContext from "../myContext";
+import MyContext from "../MyContext";
 
 // Firebase imports (adjust path if needed)
 import { auth, fireDB } from "../Firebaseconfig";
