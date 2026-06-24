@@ -8,7 +8,7 @@ import {
   updateDoc,
   onSnapshot,
 } from "firebase/firestore";
-import { fireDB } from "../FirebaseConfig";
+import { fireDB } from "../Firebaseconfig";
 
 export default function AdminDashboard() {
   const user = JSON.parse(localStorage.getItem("users"));
